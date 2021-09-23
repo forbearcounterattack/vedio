@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: user
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: xx.xx.xx.xx:8848
+        file-extension: yaml
+        #命名空间ID  默认 public
+        namespace: xxxxxxx
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"

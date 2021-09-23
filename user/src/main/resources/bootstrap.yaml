@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: user
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: xx.xx.xx.xx:8848
+        file-extension: yaml
+        namespace: xxxxx
+      config:
+        server-addr: xx.xx.xx.xx:8848
+        file-extension: yaml
+        namespace: xxxxx
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
