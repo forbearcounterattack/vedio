@@ -3,7 +3,6 @@ package com.fighting.store.user.service;
 import com.fighting.store.user.common.result.Result;
 import com.fighting.store.user.dto.UserDto;
 import com.fighting.store.user.entity.User;
-import com.github.pagehelper.PageInfo;
 
 import java.util.List;
 

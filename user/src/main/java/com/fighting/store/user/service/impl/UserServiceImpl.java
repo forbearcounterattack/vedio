@@ -9,7 +9,6 @@ import com.fighting.store.user.entity.User;
 import com.fighting.store.user.entity.UserExample;
 import com.fighting.store.user.service.UserService;
 import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

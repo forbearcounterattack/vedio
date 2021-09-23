@@ -13,6 +13,7 @@ public enum ErrorEnum {
     USER_NOT_EXIST("100005", "用户不存在"),
     DEL_USER_FAIL("100006", "删除用户失败"),
     NO_PERMISSION("400000","你没得权限"),
+    UPDATE_FAIL("120000","更新失败"),
     NO_AUTH("401","你能不能先登录一下"),
     NOT_FOUND("404", "未找到该资源!"),
     INTERNAL_SERVER_ERROR("500", "服务器跑路了"),

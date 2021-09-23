@@ -24,6 +24,7 @@
         <springfox-swagger2.version>3.0.0</springfox-swagger2.version>
         <jackson.version>2.5.4</jackson.version>
         <pagehelper-spring-boot-starter.version>1.2.12</pagehelper-spring-boot-starter.version>
+        <fastjson.version>1.2.46</fastjson.version>
     </properties>
 
     <dependencies>
